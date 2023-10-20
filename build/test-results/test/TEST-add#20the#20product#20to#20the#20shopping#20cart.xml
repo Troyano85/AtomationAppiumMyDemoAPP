@@ -1,0 +1,2021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="add the product to the shopping cart" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-10-20T02:59:07" hostname="FERCHO" time="121.077">
+  <properties/>
+  <testcase name="the user buys a product that is displayed" classname="add the product to the shopping cart" time="121.077">
+    <failure message="org.openqa.selenium.UnsupportedCommandException: {&quot;value&quot;:{&quot;error&quot;:&quot;unknown method&quot;,&quot;message&quot;:&quot;Method is not implemented&quot;,&quot;stacktrace&quot;:&quot;NotImplementedError: Method is not implemented\n    at AndroidUiautomator2Driver.execute (C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\execute.js:14:11)\n    at commandExecutor (C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:335:9)\n    at C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:146:12\n    at AsyncLock._promiseTry (C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:280:31)\n    at exec (C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:145:9)\n    at AsyncLock.acquire (C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:162:3)\n    at AndroidUiautomator2Driver.executeCommand (C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:348:39)\n    at AppiumDriver.executeCommand (C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\lib\\appium.js:563:36)\n    at runMicrotasks (&lt;anonymous&gt;)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at asyncHandler (C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:297:21)&quot;}}&#10;Command duration or timeout: 20 milliseconds&#10;Build info: version: '4.5.3', revision: '4b786a1e430'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [7d00bc16-6f87-468a-8c95-64427dac791e, executeScript {script=arguments[0].scrollIntoView(arguments[1]);, args=[{ELEMENT=00000000-0000-00c5-ffff-ffff00000103, element-6066-11e4-a52e-4f735466cecf=00000000-0000-00c5-ffff-ffff00000103}, null]}]&#10;Capabilities {appium:app: C:\Users\ferch\OneDrive\Doc..., appium:appPackage: com.saucelabs.mydemoapp.rn, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\ferch\OneDrive\Doc..., automationName: uiautomator2, deviceName: AutomationTesting, hub: http://localhost:4723/wd/hub, newCommandTimeout: 1000, platformName: android, platformVersion: 11.0}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: emulator-5554, appium:hub: http://localhost:4723/wd/hub, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 1000, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: 7d00bc16-6f87-468a-8c95-64427dac791e" type="org.openqa.selenium.UnsupportedCommandException">org.openqa.selenium.UnsupportedCommandException: {&quot;value&quot;:{&quot;error&quot;:&quot;unknown method&quot;,&quot;message&quot;:&quot;Method is not implemented&quot;,&quot;stacktrace&quot;:&quot;NotImplementedError: Method is not implemented\n    at AndroidUiautomator2Driver.execute (C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\execute.js:14:11)\n    at commandExecutor (C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:335:9)\n    at C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:146:12\n    at AsyncLock._promiseTry (C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:280:31)\n    at exec (C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:145:9)\n    at AsyncLock.acquire (C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:162:3)\n    at AndroidUiautomator2Driver.executeCommand (C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:348:39)\n    at AppiumDriver.executeCommand (C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\lib\\appium.js:563:36)\n    at runMicrotasks (&lt;anonymous&gt;)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at asyncHandler (C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:297:21)&quot;}}
+Command duration or timeout: 20 milliseconds
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [7d00bc16-6f87-468a-8c95-64427dac791e, executeScript {script=arguments[0].scrollIntoView(arguments[1]);, args=[{ELEMENT=00000000-0000-00c5-ffff-ffff00000103, element-6066-11e4-a52e-4f735466cecf=00000000-0000-00c5-ffff-ffff00000103}, null]}]
+Capabilities {appium:app: C:\Users\ferch\OneDrive\Doc..., appium:appPackage: com.saucelabs.mydemoapp.rn, appium:automationName: uiautomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\ferch\OneDrive\Doc..., automationName: uiautomator2, deviceName: AutomationTesting, hub: http://localhost:4723/wd/hub, newCommandTimeout: 1000, platformName: android, platformVersion: 11.0}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: emulator-5554, appium:hub: http://localhost:4723/wd/hub, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 1000, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 7d00bc16-6f87-468a-8c95-64427dac791e
+	at java.base@11/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base@11/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base@11/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base@11/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at app//org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:217)
+	at app//org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:169)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:478)
+	at app//net.thucydides.core.webdriver.javascript.JavascriptExecutorFacade.executeScript(JavascriptExecutorFacade.java:75)
+	at app//net.serenitybdd.core.pages.PageObject.evaluateJavascript(PageObject.java:1339)
+	at app//net.serenitybdd.screenplay.actions.ScrollTo.performScrollTo(ScrollTo.java:23)
+	at app//net.serenitybdd.screenplay.actions.ScrollToTarget.performAs(ScrollToTarget.java:14)
+	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:283)
+	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:262)
+	at app//net.serenitybdd.screenplay.Actor.performWithoutReporting(Actor.java:246)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:201)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:210)
+	at app//starter.task.SelectProducts.performAs(SelectProducts.java:13)
+	at app//starter.task.SelectProducts$ByteBuddy$yDOKLn2Y.performAs$accessor$Nkve1K6y(Unknown Source)
+	at java.base@11/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:503)
+	at app//net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:483)
+	at app//net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:457)
+	at app//net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:209)
+	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:196)
+	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:84)
+	at app//net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at app//starter.task.SelectProducts$ByteBuddy$yDOKLn2Y.performAs(Unknown Source)
+	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:283)
+	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:262)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:203)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:210)
+	at app//starter.stepdefinitions.AddProductSteps.theUserSelectsTheProductToAddItToTheCart(AddProductSteps.java:37)
+	at ✽.the user selects the product to add it to the cart(file:///C:/Users/ferch/OneDrive/Documentos/REPOSITORIO/AtomationMYDEMOAPPMovil/serenitybdd-appium-poc-master/serenitybdd-appium-poc-master/src/test/resources/features/login/add_product.feature:4)
+</failure>
+  </testcase>
+  <system-out><![CDATA[21:59:07.652 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/ferch/OneDrive/Documentos/REPOSITORIO/AtomationMYDEMOAPPMovil/serenitybdd-appium-poc-master/serenitybdd-appium-poc-master/src/test/resources/features/login/add_product.feature
+21:59:08.097 [Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+the user buys a product that is displayed(add-the-product-to-the-shopping-cart;the-user-buys-a-product-that-is-displayed)
+--------------------------------------------------------------------------------
+21:59:08.324 [Test worker] DEBUG net.thucydides.core.requirements.FileSystemRequirementsTagProvider - Loading requirements from directory: C:\Users\ferch\OneDrive\Documentos\REPOSITORIO\AtomationMYDEMOAPPMovil\serenitybdd-appium-poc-master\serenitybdd-appium-poc-master\src\test\resources\features\login (C:\Users\ferch\OneDrive\Documentos\REPOSITORIO\AtomationMYDEMOAPPMovil\serenitybdd-appium-poc-master\serenitybdd-appium-poc-master\src\test\resources\features\login)
+21:59:08.325 [Test worker] DEBUG net.thucydides.core.requirements.FileSystemRequirementsTagProvider - Get requirements type for: C:\Users\ferch\OneDrive\Documentos\REPOSITORIO\AtomationMYDEMOAPPMovil\serenitybdd-appium-poc-master\serenitybdd-appium-poc-master\src\test\resources\features\login (C:\Users\ferch\OneDrive\Documentos\REPOSITORIO\AtomationMYDEMOAPPMovil\serenitybdd-appium-poc-master\serenitybdd-appium-poc-master\src\test\resources\features\login)
+21:59:10.505 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.Runners.AddProductRunner
+21:59:10.505 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.Runners.logInRunner
+21:59:10.507 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.questions.AddQuestion
+21:59:10.508 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.questions.LoggedInQuestions
+21:59:10.508 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.stepdefinitions.AddProductSteps
+21:59:10.509 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.stepdefinitions.LogInSteps
+21:59:10.510 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.task.Identify
+21:59:10.511 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.task.NavigateTo
+21:59:10.512 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.task.SelectProducts
+21:59:10.513 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.ui.HomeViewUI
+21:59:10.515 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.ui.LoggedInAreaView
+21:59:10.516 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.ui.LoginViewUI
+21:59:10.517 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.ui.ProductSpecificationUI
+21:59:10.518 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.ui.ProductsViewUI
+21:59:10.522 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class META-INF.versions.9.com.sun.istack.logging.StackHelper
+21:59:10.524 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class META-INF.versions.9.com.sun.xml.bind.v2.runtime.reflect.opt.AccessorInjector
+21:59:10.526 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class META-INF.versions.9.com.sun.xml.bind.v2.runtime.reflect.opt.Injector
+21:59:10.529 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class META-INF.versions.9.com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory
+21:59:10.531 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class META-INF.versions.9.com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedTransducedAccessorFactory
+21:59:10.535 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class META-INF.versions.9.io.opentelemetry.sdk.internal.CurrentJavaVersionSpecific
+21:59:10.538 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class META-INF.versions.9.io.opentelemetry.sdk.internal.Java9VersionSpecific
+21:59:10.541 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class META-INF.versions.9.javax.xml.bind.ModuleUtil
+21:59:10.548 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class META-INF.versions.9.module-info
+21:59:10.554 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class META-INF.versions.9.org.junit.platform.commons.util.ModuleUtils
+21:59:11.799 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class com.google.gson.internal.
+21:59:12.312 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class com.sun.xml.bind.v2.runtime.output.FastInfosetStreamWriterOutput
+21:59:13.644 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class module-info
+21:59:21.804 [Test worker] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+21:59:21.846 [Test worker] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+21:59:21.846 [Test worker] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+21:59:21.856 [Test worker] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@34c050a1
+21:59:21.947 [Test worker] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+21:59:21.948 [Test worker] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 11
+21:59:21.951 [Test worker] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+21:59:21.953 [Test worker] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+21:59:21.954 [Test worker] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+21:59:21.955 [Test worker] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+21:59:21.957 [Test worker] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+21:59:21.959 [Test worker] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+21:59:21.987 [Test worker] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @18ca3c62
+21:59:21.992 [Test worker] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+21:59:21.993 [Test worker] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+21:59:22.034 [Test worker] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 536870912 bytes (maybe)
+21:59:22.035 [Test worker] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\ferch\AppData\Local\Temp (java.io.tmpdir)
+21:59:22.036 [Test worker] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+21:59:22.037 [Test worker] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+21:59:22.040 [Test worker] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+21:59:22.040 [Test worker] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+21:59:22.072 [Test worker] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+21:59:22.073 [Test worker] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+21:59:22.103 [Test worker] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+21:59:22.218 [Test worker] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+21:59:22.218 [Test worker] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+21:59:22.691 [Test worker] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1] 
+21:59:22.692 [Test worker] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+21:59:22.861 [Test worker] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+21:59:22.891 [Test worker] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+21:59:22.892 [Test worker] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+21:59:23.088 [Test worker] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 1
+21:59:23.089 [Test worker] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 1
+21:59:23.089 [Test worker] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+21:59:23.089 [Test worker] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+21:59:23.089 [Test worker] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+21:59:23.089 [Test worker] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+21:59:23.089 [Test worker] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+21:59:23.089 [Test worker] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+21:59:23.089 [Test worker] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+21:59:23.089 [Test worker] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 600000
+21:59:23.089 [Test worker] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+21:59:23.089 [Test worker] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+21:59:23.143 [Test worker] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+21:59:23.143 [Test worker] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+21:59:23.143 [Test worker] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+21:59:23.898 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 50675 (user-set)
+21:59:23.900 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 28:f0:76:ff:fe:16:65:0e (user-set)
+21:59:24.202 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+21:59:24.203 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+21:59:24.204 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@760ae7fd
+21:59:24.269 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.NettyConnectListener - Using new Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'POST' to '/wd/hub/session'
+21:59:24.327 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+21:59:24.327 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+21:59:24.328 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+21:59:24.328 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+22:00:14.883 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+22:00:14.884 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session HTTP/1.1
+X-Idempotency-Key: 994452b2-1383-4bb4-82cb-3a04ff6643a3
+User-Agent: selenium/4.5.3 (java windows)
+Content-Length: 494
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"47c-gNEn7pvJ0Fk7jMlBSWbpsdkb5LA"
+Date: Fri, 20 Oct 2023 03:00:14 GMT
+Connection: keep-alive
+content-length: 1148
+
+22:00:14.927 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:15.542 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:4723 : 1
+22:00:15.926 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.Runners.AddProductRunner
+22:00:15.926 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.Runners.logInRunner
+22:00:15.927 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.questions.AddQuestion
+22:00:15.928 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.questions.LoggedInQuestions
+22:00:15.928 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.stepdefinitions.AddProductSteps
+22:00:15.929 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.stepdefinitions.LogInSteps
+22:00:15.929 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.task.Identify
+22:00:15.930 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.task.NavigateTo
+22:00:15.930 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.task.SelectProducts
+22:00:15.931 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.ui.HomeViewUI
+22:00:15.932 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.ui.LoggedInAreaView
+22:00:15.932 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.ui.LoginViewUI
+22:00:15.933 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.ui.ProductSpecificationUI
+22:00:15.933 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class .starter.ui.ProductsViewUI
+22:00:15.936 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class META-INF.versions.9.com.sun.istack.logging.StackHelper
+22:00:15.938 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class META-INF.versions.9.com.sun.xml.bind.v2.runtime.reflect.opt.AccessorInjector
+22:00:15.939 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class META-INF.versions.9.com.sun.xml.bind.v2.runtime.reflect.opt.Injector
+22:00:15.941 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class META-INF.versions.9.com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory
+22:00:15.942 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class META-INF.versions.9.com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedTransducedAccessorFactory
+22:00:15.944 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class META-INF.versions.9.io.opentelemetry.sdk.internal.CurrentJavaVersionSpecific
+22:00:15.946 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class META-INF.versions.9.io.opentelemetry.sdk.internal.Java9VersionSpecific
+22:00:15.949 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class META-INF.versions.9.javax.xml.bind.ModuleUtil
+22:00:15.952 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class META-INF.versions.9.module-info
+22:00:15.954 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class META-INF.versions.9.org.junit.platform.commons.util.ModuleUtils
+22:00:15.959 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class com.google.gson.internal.
+22:00:15.962 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class com.sun.xml.bind.v2.runtime.output.FastInfosetStreamWriterOutput
+22:00:15.968 [Test worker] DEBUG net.thucydides.core.reflection.ClassFinder - Could not load class module-info
+22:00:16.504 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
+22:00:16.511 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
+22:00:16.582 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:16.582 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:16.613 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"dc9-1p46SNnIG6GxUYvzfhKldWCLeEA"
+Date: Fri, 20 Oct 2023 03:00:16 GMT
+Connection: keep-alive
+content-length: 3529
+
+22:00:16.615 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:16.638 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:16.638 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:17.649 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"5ab8-W6zoJL4zVoTSl0bkrUJ3X849pEc"
+Date: Fri, 20 Oct 2023 03:00:17 GMT
+Connection: keep-alive
+content-length: 23224
+
+22:00:17.651 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:17.657 [Test worker] WARN net.thucydides.core.webdriver.WebDriverFacade - Failed to take screenshot (Illegal base64 character a)
+22:00:17.699 [Forwarding getPageSource on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source'
+22:00:17.699 [Forwarding getPageSource on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source'
+22:00:18.676 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"119a-XHZA9zZHK3ch5MYozY3xq4W9c3g"
+Date: Fri, 20 Oct 2023 03:00:18 GMT
+Connection: keep-alive
+content-length: 4506
+
+22:00:18.678 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:18.838 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:4723 : 1
+22:00:19.032 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AddProductSteps.theUserLoggedInAndIsOnTheProductsPage - performAs
+22:00:19.279 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:19.279 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:19.326 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"dc9-1p46SNnIG6GxUYvzfhKldWCLeEA"
+Date: Fri, 20 Oct 2023 03:00:19 GMT
+Connection: keep-alive
+content-length: 3529
+
+22:00:19.327 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:19.334 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:19.335 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:20.950 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"5ab8-W6zoJL4zVoTSl0bkrUJ3X849pEc"
+Date: Fri, 20 Oct 2023 03:00:20 GMT
+Connection: keep-alive
+content-length: 23224
+
+22:00:20.952 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:20.956 [Test worker] WARN net.thucydides.core.webdriver.WebDriverFacade - Failed to take screenshot (Illegal base64 character a)
+22:00:21.011 [Forwarding getPageSource on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source'
+22:00:21.011 [Forwarding getPageSource on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source'
+22:00:21.111 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"119a-XHZA9zZHK3ch5MYozY3xq4W9c3g"
+Date: Fri, 20 Oct 2023 03:00:21 GMT
+Connection: keep-alive
+content-length: 4506
+
+22:00:21.112 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:21.129 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: NavigateTo.performAs - {0} clicks on #target
+22:00:21.134 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for menu button
+22:00:21.635 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:21.635 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for POST '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:23.968 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Content-Length: 130
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"404-TfJUbRSnDydO2zXk1++csYaLa5o"
+Date: Fri, 20 Oct 2023 03:00:23 GMT
+Connection: keep-alive
+content-length: 1028
+
+22:00:23.969 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:24.245 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:24.245 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for POST '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:24.453 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Content-Length: 130
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"404-TfJUbRSnDydO2zXk1++csYaLa5o"
+Date: Fri, 20 Oct 2023 03:00:24 GMT
+Connection: keep-alive
+content-length: 1028
+
+22:00:24.454 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:24.686 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:24.686 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for POST '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:24.847 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Content-Length: 130
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"404-TfJUbRSnDydO2zXk1++csYaLa5o"
+Date: Fri, 20 Oct 2023 03:00:24 GMT
+Connection: keep-alive
+content-length: 1028
+
+22:00:24.848 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:25.099 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:25.099 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for POST '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:25.204 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Content-Length: 130
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"404-TfJUbRSnDydO2zXk1++csYaLa5o"
+Date: Fri, 20 Oct 2023 03:00:25 GMT
+Connection: keep-alive
+content-length: 1028
+
+22:00:25.207 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:25.409 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:25.410 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for POST '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:32.207 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Content-Length: 130
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-gRTHxPEQHmDDFIqKf44Eeq5yplk"
+Date: Fri, 20 Oct 2023 03:00:32 GMT
+Connection: keep-alive
+content-length: 137
+
+22:00:32.208 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:32.251 [Forwarding isElementDisplayed on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff00000025/displayed'
+22:00:32.252 [Forwarding isElementDisplayed on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff00000025/displayed'
+22:00:32.291 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff00000025/displayed HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Fri, 20 Oct 2023 03:00:32 GMT
+Connection: keep-alive
+content-length: 14
+
+22:00:32.292 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:32.352 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:32.352 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for POST '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:32.605 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Content-Length: 130
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-gRTHxPEQHmDDFIqKf44Eeq5yplk"
+Date: Fri, 20 Oct 2023 03:00:32 GMT
+Connection: keep-alive
+content-length: 137
+
+22:00:32.606 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:32.612 [Forwarding clickElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff00000025/click'
+22:00:32.613 [Forwarding clickElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for POST '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff00000025/click'
+22:00:32.752 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff00000025/click HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Fri, 20 Oct 2023 03:00:32 GMT
+Connection: keep-alive
+content-length: 14
+
+22:00:32.754 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:32.942 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:32.943 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:32.992 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"dc9-1p46SNnIG6GxUYvzfhKldWCLeEA"
+Date: Fri, 20 Oct 2023 03:00:32 GMT
+Connection: keep-alive
+content-length: 3529
+
+22:00:32.995 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:33.007 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:33.010 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:34.577 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"aab6a-CftEiRvmK/LAxQvFX5W30v4xR5Q"
+Date: Fri, 20 Oct 2023 03:00:34 GMT
+Connection: keep-alive
+content-length: 699242
+
+22:00:34.587 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:34.600 [Test worker] WARN net.thucydides.core.webdriver.WebDriverFacade - Failed to take screenshot (Illegal base64 character a)
+22:00:34.641 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+22:00:34.763 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:34.763 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:34.788 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"dc9-1p46SNnIG6GxUYvzfhKldWCLeEA"
+Date: Fri, 20 Oct 2023 03:00:34 GMT
+Connection: keep-alive
+content-length: 3529
+
+22:00:34.789 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:34.793 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:34.793 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:35.421 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"aa4ce-kWMY+9RntoNQsoMqskHE/xdsM1Q"
+Date: Fri, 20 Oct 2023 03:00:35 GMT
+Connection: keep-alive
+content-length: 697550
+
+22:00:35.432 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:35.470 [Test worker] WARN net.thucydides.core.webdriver.WebDriverFacade - Failed to take screenshot (Illegal base64 character a)
+22:00:35.527 [Forwarding getPageSource on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source'
+22:00:35.527 [Forwarding getPageSource on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source'
+22:00:35.876 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"d0fb-uOP6nb4e3t0+sZZKwkN0CexILRY"
+Date: Fri, 20 Oct 2023 03:00:35 GMT
+Connection: keep-alive
+content-length: 53499
+
+22:00:35.877 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:35.941 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: NavigateTo.performAs - {0} clicks on #target
+22:00:35.945 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for login in
+22:00:36.230 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:36.230 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for POST '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:36.273 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Content-Length: 64
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-q9aM0R4IrcXa+q3jd7LYLEtBx+c"
+Date: Fri, 20 Oct 2023 03:00:36 GMT
+Connection: keep-alive
+content-length: 137
+
+22:00:36.273 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:36.309 [Forwarding isElementDisplayed on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff00000083/displayed'
+22:00:36.309 [Forwarding isElementDisplayed on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff00000083/displayed'
+22:00:36.338 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff00000083/displayed HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Fri, 20 Oct 2023 03:00:36 GMT
+Connection: keep-alive
+content-length: 14
+
+22:00:36.339 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:36.403 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:36.403 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for POST '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:36.428 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Content-Length: 64
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-q9aM0R4IrcXa+q3jd7LYLEtBx+c"
+Date: Fri, 20 Oct 2023 03:00:36 GMT
+Connection: keep-alive
+content-length: 137
+
+22:00:36.429 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:36.432 [Forwarding clickElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff00000083/click'
+22:00:36.432 [Forwarding clickElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for POST '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff00000083/click'
+22:00:36.544 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff00000083/click HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Fri, 20 Oct 2023 03:00:36 GMT
+Connection: keep-alive
+content-length: 14
+
+22:00:36.549 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:36.735 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:36.736 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:36.769 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"dc9-1p46SNnIG6GxUYvzfhKldWCLeEA"
+Date: Fri, 20 Oct 2023 03:00:36 GMT
+Connection: keep-alive
+content-length: 3529
+
+22:00:36.770 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:36.776 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:36.776 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:37.620 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"a9e30-VMNhwqphgYh+ivpuJ7WV0qHTBBI"
+Date: Fri, 20 Oct 2023 03:00:37 GMT
+Connection: keep-alive
+content-length: 695856
+
+22:00:37.637 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:37.680 [Test worker] WARN net.thucydides.core.webdriver.WebDriverFacade - Failed to take screenshot (Illegal base64 character a)
+22:00:37.682 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+22:00:37.985 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:37.986 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:38.033 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"dc9-1p46SNnIG6GxUYvzfhKldWCLeEA"
+Date: Fri, 20 Oct 2023 03:00:38 GMT
+Connection: keep-alive
+content-length: 3529
+
+22:00:38.034 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:38.040 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:38.040 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:38.515 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"24730-7IHS6TrQVvNMk5Rqufz9Z/399qg"
+Date: Fri, 20 Oct 2023 03:00:38 GMT
+Connection: keep-alive
+content-length: 149296
+
+22:00:38.518 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:38.522 [Test worker] WARN net.thucydides.core.webdriver.WebDriverFacade - Failed to take screenshot (Illegal base64 character a)
+22:00:38.523 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+22:00:38.604 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:38.605 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:38.631 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"dc9-1p46SNnIG6GxUYvzfhKldWCLeEA"
+Date: Fri, 20 Oct 2023 03:00:38 GMT
+Connection: keep-alive
+content-length: 3529
+
+22:00:38.633 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:38.639 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:4723 : 1
+22:00:38.640 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:38.640 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:39.170 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"24684-axW94+LjRxpq/Eaj9reKWnG3J1o"
+Date: Fri, 20 Oct 2023 03:00:39 GMT
+Connection: keep-alive
+content-length: 149124
+
+22:00:39.173 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:39.177 [Test worker] WARN net.thucydides.core.webdriver.WebDriverFacade - Failed to take screenshot (Illegal base64 character a)
+22:00:39.204 [Forwarding getPageSource on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source'
+22:00:39.204 [Forwarding getPageSource on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source'
+22:00:39.352 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"6c76-Uqxyne1tnCdYKzX28flLfk8tn34"
+Date: Fri, 20 Oct 2023 03:00:39 GMT
+Connection: keep-alive
+content-length: 27766
+
+22:00:39.353 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:39.373 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AddProductSteps.theUserLoggedInAndIsOnTheProductsPage - performAs
+22:00:39.599 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:39.600 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:39.634 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"dc9-1p46SNnIG6GxUYvzfhKldWCLeEA"
+Date: Fri, 20 Oct 2023 03:00:39 GMT
+Connection: keep-alive
+content-length: 3529
+
+22:00:39.635 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:39.641 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:39.641 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:40.126 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"24336-BwXzJl8MOeho50PUgS8aIgsUeMY"
+Date: Fri, 20 Oct 2023 03:00:40 GMT
+Connection: keep-alive
+content-length: 148278
+
+22:00:40.128 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:40.134 [Test worker] WARN net.thucydides.core.webdriver.WebDriverFacade - Failed to take screenshot (Illegal base64 character a)
+22:00:40.166 [Forwarding getPageSource on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source'
+22:00:40.167 [Forwarding getPageSource on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source'
+22:00:40.284 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"6c76-Uqxyne1tnCdYKzX28flLfk8tn34"
+Date: Fri, 20 Oct 2023 03:00:40 GMT
+Connection: keep-alive
+content-length: 27766
+
+22:00:40.285 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:40.310 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Identify.performAs - {0} enters #theTextAsAString into #target
+22:00:40.359 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for input user name
+22:00:40.436 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:40.436 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for POST '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:40.519 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Content-Length: 68
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-9smU74QukUWww+w+Zas/uggRDXg"
+Date: Fri, 20 Oct 2023 03:00:40 GMT
+Connection: keep-alive
+content-length: 137
+
+22:00:40.520 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:40.541 [Forwarding sendKeysToElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff000000a1/value'
+22:00:40.541 [Forwarding sendKeysToElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for POST '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff000000a1/value'
+22:00:40.680 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff000000a1/value HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Content-Length: 231
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Fri, 20 Oct 2023 03:00:40 GMT
+Connection: keep-alive
+content-length: 14
+
+22:00:40.681 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:40.840 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:4723 : 1
+22:00:40.905 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:40.905 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:40.939 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"dc9-1p46SNnIG6GxUYvzfhKldWCLeEA"
+Date: Fri, 20 Oct 2023 03:00:40 GMT
+Connection: keep-alive
+content-length: 3529
+
+22:00:40.940 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:40.946 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:40.947 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:41.364 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"26b8c-rXwlzLW2nfWdtlgFC7x3ymgOdoQ"
+Date: Fri, 20 Oct 2023 03:00:41 GMT
+Connection: keep-alive
+content-length: 158604
+
+22:00:41.369 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:41.373 [Test worker] WARN net.thucydides.core.webdriver.WebDriverFacade - Failed to take screenshot (Illegal base64 character a)
+22:00:41.375 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+22:00:41.528 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:41.530 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:41.556 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"dc9-1p46SNnIG6GxUYvzfhKldWCLeEA"
+Date: Fri, 20 Oct 2023 03:00:41 GMT
+Connection: keep-alive
+content-length: 3529
+
+22:00:41.558 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:41.563 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:41.564 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:43.576 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"26b8c-rXwlzLW2nfWdtlgFC7x3ymgOdoQ"
+Date: Fri, 20 Oct 2023 03:00:43 GMT
+Connection: keep-alive
+content-length: 158604
+
+22:00:43.579 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:43.584 [Test worker] WARN net.thucydides.core.webdriver.WebDriverFacade - Failed to take screenshot (Illegal base64 character a)
+22:00:43.611 [Forwarding getPageSource on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source'
+22:00:43.611 [Forwarding getPageSource on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source'
+22:00:43.915 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"6c85-MzBjHhEv3D08dp8grXGhbWKEZr0"
+Date: Fri, 20 Oct 2023 03:00:43 GMT
+Connection: keep-alive
+content-length: 27781
+
+22:00:43.916 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:43.931 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Identify.performAs - {0} enters #theTextAsAString into #target
+22:00:43.967 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for input password
+22:00:44.035 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:44.035 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for POST '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:44.099 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Content-Length: 68
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-PKxU2ypiRKhBVYl1HxZim/nnCok"
+Date: Fri, 20 Oct 2023 03:00:44 GMT
+Connection: keep-alive
+content-length: 137
+
+22:00:44.100 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:44.106 [Forwarding sendKeysToElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff000000a4/value'
+22:00:44.106 [Forwarding sendKeysToElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for POST '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff000000a4/value'
+22:00:44.162 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff000000a4/value HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Content-Length: 161
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Fri, 20 Oct 2023 03:00:44 GMT
+Connection: keep-alive
+content-length: 14
+
+22:00:44.163 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:44.371 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:44.371 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:44.390 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"dc9-1p46SNnIG6GxUYvzfhKldWCLeEA"
+Date: Fri, 20 Oct 2023 03:00:44 GMT
+Connection: keep-alive
+content-length: 3529
+
+22:00:44.391 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:44.396 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:44.399 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:45.076 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"26d3a-JmsQTDzW+e/PAJgcoAg6RuD646I"
+Date: Fri, 20 Oct 2023 03:00:45 GMT
+Connection: keep-alive
+content-length: 159034
+
+22:00:45.080 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:45.085 [Test worker] WARN net.thucydides.core.webdriver.WebDriverFacade - Failed to take screenshot (Illegal base64 character a)
+22:00:45.085 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+22:00:45.184 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:45.184 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:45.206 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"dc9-1p46SNnIG6GxUYvzfhKldWCLeEA"
+Date: Fri, 20 Oct 2023 03:00:45 GMT
+Connection: keep-alive
+content-length: 3529
+
+22:00:45.207 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:45.216 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:45.216 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:45.641 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"26d3a-JmsQTDzW+e/PAJgcoAg6RuD646I"
+Date: Fri, 20 Oct 2023 03:00:45 GMT
+Connection: keep-alive
+content-length: 159034
+
+22:00:45.645 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:45.649 [Test worker] WARN net.thucydides.core.webdriver.WebDriverFacade - Failed to take screenshot (Illegal base64 character a)
+22:00:45.678 [Forwarding getPageSource on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source'
+22:00:45.678 [Forwarding getPageSource on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source'
+22:00:45.788 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"6c9d-lHNrJ4eaFlsbecuCiBofEk6OlSA"
+Date: Fri, 20 Oct 2023 03:00:45 GMT
+Connection: keep-alive
+content-length: 27805
+
+22:00:45.788 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:45.819 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Identify.performAs - {0} clicks on #target
+22:00:45.821 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for button login
+22:00:46.052 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:46.052 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for POST '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:46.091 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Content-Length: 60
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-cMvilg6oIPnhi3MjBhuomSlFTYk"
+Date: Fri, 20 Oct 2023 03:00:46 GMT
+Connection: keep-alive
+content-length: 137
+
+22:00:46.091 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:46.126 [Forwarding isElementDisplayed on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff000000a7/displayed'
+22:00:46.126 [Forwarding isElementDisplayed on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff000000a7/displayed'
+22:00:46.162 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff000000a7/displayed HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Fri, 20 Oct 2023 03:00:46 GMT
+Connection: keep-alive
+content-length: 14
+
+22:00:46.163 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:46.219 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:46.219 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for POST '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:46.268 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Content-Length: 60
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-cMvilg6oIPnhi3MjBhuomSlFTYk"
+Date: Fri, 20 Oct 2023 03:00:46 GMT
+Connection: keep-alive
+content-length: 137
+
+22:00:46.269 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:46.274 [Forwarding clickElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff000000a7/click'
+22:00:46.275 [Forwarding clickElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for POST '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff000000a7/click'
+22:00:46.361 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff000000a7/click HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Fri, 20 Oct 2023 03:00:46 GMT
+Connection: keep-alive
+content-length: 14
+
+22:00:46.362 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:46.520 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:46.521 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:46.545 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"dc9-1p46SNnIG6GxUYvzfhKldWCLeEA"
+Date: Fri, 20 Oct 2023 03:00:46 GMT
+Connection: keep-alive
+content-length: 3529
+
+22:00:46.546 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:46.556 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:46.556 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:47.073 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"266e8-uEm81piLI2lc/mKhCOQn/fyfoN4"
+Date: Fri, 20 Oct 2023 03:00:47 GMT
+Connection: keep-alive
+content-length: 157416
+
+22:00:47.076 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:47.083 [Test worker] WARN net.thucydides.core.webdriver.WebDriverFacade - Failed to take screenshot (Illegal base64 character a)
+22:00:47.084 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+22:00:47.282 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:47.284 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:47.312 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"dc9-1p46SNnIG6GxUYvzfhKldWCLeEA"
+Date: Fri, 20 Oct 2023 03:00:47 GMT
+Connection: keep-alive
+content-length: 3529
+
+22:00:47.313 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:47.320 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:47.321 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:49.368 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"1a2a40-vtJNbuIz3xCOpR9LKw8MqGwzXEQ"
+Date: Fri, 20 Oct 2023 03:00:49 GMT
+Connection: keep-alive
+content-length: 1714752
+
+22:00:49.386 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:49.450 [Test worker] WARN net.thucydides.core.webdriver.WebDriverFacade - Failed to take screenshot (Illegal base64 character a)
+22:00:49.452 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+22:00:49.641 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:4723 : 1
+22:00:49.641 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:49.641 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:49.679 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"dc9-1p46SNnIG6GxUYvzfhKldWCLeEA"
+Date: Fri, 20 Oct 2023 03:00:49 GMT
+Connection: keep-alive
+content-length: 3529
+
+22:00:49.680 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:49.687 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:49.688 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:50.632 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"1a2a04-db+bP2pJhXx/w8Nkp7bBB/rv+9I"
+Date: Fri, 20 Oct 2023 03:00:50 GMT
+Connection: keep-alive
+content-length: 1714692
+
+22:00:50.651 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:50.719 [Test worker] WARN net.thucydides.core.webdriver.WebDriverFacade - Failed to take screenshot (Illegal base64 character a)
+22:00:50.738 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:4723 : 1
+22:00:50.824 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:50.824 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:50.847 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"dc9-1p46SNnIG6GxUYvzfhKldWCLeEA"
+Date: Fri, 20 Oct 2023 03:00:50 GMT
+Connection: keep-alive
+content-length: 3529
+
+22:00:50.848 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:50.854 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:50.854 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:52.710 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"1a2a04-db+bP2pJhXx/w8Nkp7bBB/rv+9I"
+Date: Fri, 20 Oct 2023 03:00:52 GMT
+Connection: keep-alive
+content-length: 1714692
+
+22:00:52.724 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:52.783 [Test worker] WARN net.thucydides.core.webdriver.WebDriverFacade - Failed to take screenshot (Illegal base64 character a)
+22:00:52.816 [Forwarding getPageSource on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source'
+22:00:52.817 [Forwarding getPageSource on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source'
+22:00:52.977 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"a24b-gkyN4Sz2V9knpJC/GD4+OOphX24"
+Date: Fri, 20 Oct 2023 03:00:52 GMT
+Connection: keep-alive
+content-length: 41547
+
+22:00:52.979 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:53.180 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:53.180 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:53.206 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"dc9-1p46SNnIG6GxUYvzfhKldWCLeEA"
+Date: Fri, 20 Oct 2023 03:00:53 GMT
+Connection: keep-alive
+content-length: 3529
+
+22:00:53.207 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:53.214 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:53.214 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:54.348 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"1a2a04-db+bP2pJhXx/w8Nkp7bBB/rv+9I"
+Date: Fri, 20 Oct 2023 03:00:54 GMT
+Connection: keep-alive
+content-length: 1714692
+
+22:00:54.360 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:54.425 [Test worker] WARN net.thucydides.core.webdriver.WebDriverFacade - Failed to take screenshot (Illegal base64 character a)
+22:00:54.461 [Forwarding getPageSource on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source'
+22:00:54.462 [Forwarding getPageSource on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source'
+22:00:54.646 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"a24b-gkyN4Sz2V9knpJC/GD4+OOphX24"
+Date: Fri, 20 Oct 2023 03:00:54 GMT
+Connection: keep-alive
+content-length: 41547
+
+22:00:54.647 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:54.676 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AddProductSteps.theUserSelectsTheProductToAddItToTheCart - performAs
+22:00:54.851 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:54.851 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:54.883 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"dc9-1p46SNnIG6GxUYvzfhKldWCLeEA"
+Date: Fri, 20 Oct 2023 03:00:54 GMT
+Connection: keep-alive
+content-length: 3529
+
+22:00:54.884 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:54.891 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:54.891 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:56.026 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"1a2a04-db+bP2pJhXx/w8Nkp7bBB/rv+9I"
+Date: Fri, 20 Oct 2023 03:00:56 GMT
+Connection: keep-alive
+content-length: 1714692
+
+22:00:56.036 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:56.112 [Test worker] WARN net.thucydides.core.webdriver.WebDriverFacade - Failed to take screenshot (Illegal base64 character a)
+22:00:56.155 [Forwarding getPageSource on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source'
+22:00:56.155 [Forwarding getPageSource on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source'
+22:00:56.330 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"a24b-gkyN4Sz2V9knpJC/GD4+OOphX24"
+Date: Fri, 20 Oct 2023 03:00:56 GMT
+Connection: keep-alive
+content-length: 41547
+
+22:00:56.331 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:56.354 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SelectProducts.performAs - {0} clicks on #target
+22:00:56.356 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for img producto
+22:00:56.601 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:56.601 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for POST '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:56.792 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Content-Length: 167
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-pG3O5+8pChVEzYyh+4sNtzL4Gjs"
+Date: Fri, 20 Oct 2023 03:00:56 GMT
+Connection: keep-alive
+content-length: 137
+
+22:00:56.793 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:56.825 [Forwarding isElementDisplayed on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff00000045/displayed'
+22:00:56.825 [Forwarding isElementDisplayed on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff00000045/displayed'
+22:00:56.871 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff00000045/displayed HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-2ZHvAWebNQpyjGZTg6uyV8/spTo"
+Date: Fri, 20 Oct 2023 03:00:56 GMT
+Connection: keep-alive
+content-length: 14
+
+22:00:56.871 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:56.927 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:56.928 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for POST '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:57.094 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Content-Length: 167
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-pG3O5+8pChVEzYyh+4sNtzL4Gjs"
+Date: Fri, 20 Oct 2023 03:00:57 GMT
+Connection: keep-alive
+content-length: 137
+
+22:00:57.096 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:57.099 [Forwarding clickElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff00000045/click'
+22:00:57.100 [Forwarding clickElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for POST '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff00000045/click'
+22:00:57.199 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element/00000000-0000-00c5-ffff-ffff00000045/click HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Fri, 20 Oct 2023 03:00:57 GMT
+Connection: keep-alive
+content-length: 14
+
+22:00:57.200 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:57.338 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:4723 : 1
+22:00:57.371 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:57.371 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:00:57.399 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"dc9-1p46SNnIG6GxUYvzfhKldWCLeEA"
+Date: Fri, 20 Oct 2023 03:00:57 GMT
+Connection: keep-alive
+content-length: 3529
+
+22:00:57.402 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:57.408 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:57.408 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:00:58.827 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"173544-rEKz5QZcj79gnyZCrZPSHYoDlhI"
+Date: Fri, 20 Oct 2023 03:00:58 GMT
+Connection: keep-alive
+content-length: 1520964
+
+22:00:58.841 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:58.897 [Test worker] WARN net.thucydides.core.webdriver.WebDriverFacade - Failed to take screenshot (Illegal base64 character a)
+22:00:58.898 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+22:00:58.905 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for scroll
+22:00:58.980 [Forwarding getCurrentUrl on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/url'
+22:00:58.980 [Forwarding getCurrentUrl on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/url'
+22:00:58.991 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/url HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 405 Method Not Allowed
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"349-fZC9qSQLC44R3a5dkM3SVSLaABo"
+Date: Fri, 20 Oct 2023 03:00:58 GMT
+Connection: keep-alive
+content-length: 841
+
+22:00:58.992 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:00:59.033 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:00:59.033 [Forwarding findElement on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for POST '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element'
+22:01:05.843 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/element HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Content-Length: 165
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"89-k5kYRW62tFxcsQVRHgLoNuVrnH4"
+Date: Fri, 20 Oct 2023 03:01:05 GMT
+Connection: keep-alive
+content-length: 137
+
+22:01:05.844 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:01:05.912 [Forwarding executeScript on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'POST' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/execute/sync'
+22:01:05.912 [Forwarding executeScript on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for POST '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/execute/sync'
+22:01:05.925 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/execute/sync HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Content-Length: 240
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 405 Method Not Allowed
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+ETag: W/"76b-vihIzU/1NIZD266aMJ9RRbC9qzY"
+Date: Fri, 20 Oct 2023 03:01:05 GMT
+Connection: keep-alive
+content-length: 1899
+
+22:01:05.926 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:01:06.040 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:01:06.040 [Forwarding getCurrentWindowHandle on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window'
+22:01:06.069 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/window HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"dc9-1p46SNnIG6GxUYvzfhKldWCLeEA"
+Date: Fri, 20 Oct 2023 03:01:06 GMT
+Connection: keep-alive
+content-length: 3529
+
+22:01:06.070 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:01:06.074 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:01:06.075 [Forwarding screenshot on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot'
+22:01:06.658 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/screenshot HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"e38d0-yyoQco0Hy5RIG/+Cz/Lrq6PrpD4"
+Date: Fri, 20 Oct 2023 03:01:06 GMT
+Connection: keep-alive
+content-length: 932048
+
+22:01:06.664 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:01:06.690 [Test worker] WARN net.thucydides.core.webdriver.WebDriverFacade - Failed to take screenshot (Illegal base64 character a)
+22:01:06.736 [Forwarding getPageSource on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'GET' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source'
+22:01:06.737 [Forwarding getPageSource on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for GET '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source'
+22:01:06.827 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e/source HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"733b-lfqowJMl2k9xRlSgAPeq1Pfrlps"
+Date: Fri, 20 Oct 2023 03:01:06 GMT
+Connection: keep-alive
+content-length: 29499
+
+22:01:06.828 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+22:01:07.089 [Test worker] ERROR  - 
+  _____   ___   ___   _____     ___   ___   ___    ___    ___ 
+ |_   _| | __| / __| |_   _|   | __| | _ \ | _ \  / _ \  | _ \
+   | |   | _|  \__ \   | |     | _|  |   / |   / | (_) | |   /
+   |_|   |___| |___/   |_|     |___| |_|_\ |_|_\  \___/  |_|_\
+
+the user buys a product that is displayed
+---------------------------------------------------------------
+22:01:07.095 [Test worker] DEBUG  - RELATED ISSUES: 
+22:01:07.100 [Test worker] ERROR  -     Test failed at step: User select products
+22:01:07.101 [Test worker] ERROR  -     {"value":{"error":"unknown method","message":"Method is not implemented","stacktrace":"NotImplementedError: Method is not implemented\n    at AndroidUiautomator2Driver.execute (C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\execute.js:14:11)\n    at commandExecutor (C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:335:9)\n    at C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:146:12\n    at AsyncLock._promiseTry (C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:280:31)\n    at exec (C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:145:9)\n    at AsyncLock.acquire (C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:162:3)\n    at AndroidUiautomator2Driver.executeCommand (C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:348:39)\n    at AppiumDriver.executeCommand (C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\lib\\appium.js:563:36)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at asyncHandler (C:\\Users\\ferch\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:297:21)"}}
+22:01:07.195 [Forwarding quit on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]' for 'DELETE' to 'http://localhost:4723/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e'
+22:01:07.195 [Forwarding quit on session 7d00bc16-6f87-468a-8c95-64427dac791e to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723] for DELETE '/wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e'
+22:01:08.383 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /wd/hub/session/7d00bc16-6f87-468a-8c95-64427dac791e HTTP/1.1
+User-Agent: selenium/4.5.3 (java windows)
+Content-Type: application/json; charset=utf-8
+host: localhost:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+ETag: W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"
+Date: Fri, 20 Oct 2023 03:01:08 GMT
+Connection: keep-alive
+content-length: 14
+
+22:01:08.385 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4723 for channel [id: 0xc885b09b, L:/127.0.0.1:55688 - R:localhost/127.0.0.1:4723]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
